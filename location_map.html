@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0063af3f9acf44ff715dff2b8787f183 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0063af3f9acf44ff715dff2b8787f183" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0063af3f9acf44ff715dff2b8787f183 = L.map(
+                "map_0063af3f9acf44ff715dff2b8787f183",
+                {
+                    center: [0.7893, 113.9213],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ebc604ff17fa537def2b3d7885eeae6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0ebc604ff17fa537def2b3d7885eeae6.addTo(map_0063af3f9acf44ff715dff2b8787f183);
+        
+    
+            var circle_marker_b46bed25ce8fe4a77a56d724785a288c = L.circleMarker(
+                [-6.1754049, 106.827168],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_0063af3f9acf44ff715dff2b8787f183);
+        
+    
+        var popup_e16dedecc690b42ab9bbea88772a3d53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff3626a1cccf6657497c58b64f0a9442 = $(`<div id="html_ff3626a1cccf6657497c58b64f0a9442" style="width: 100.0%; height: 100.0%;">Jakarta: 80</div>`)[0];
+                popup_e16dedecc690b42ab9bbea88772a3d53.setContent(html_ff3626a1cccf6657497c58b64f0a9442);
+            
+        
+
+        circle_marker_b46bed25ce8fe4a77a56d724785a288c.bindPopup(popup_e16dedecc690b42ab9bbea88772a3d53)
+        ;
+
+        
+    
+    
+            var circle_marker_a5e20b48edcb2a7fe5384e17fcdcdb25 = L.circleMarker(
+                [-6.9215529, 107.6110212],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_0063af3f9acf44ff715dff2b8787f183);
+        
+    
+        var popup_35fecba45fdaaa1756fd157fe9e9f504 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cde6fcc0a7c99dba51b84def0723bd94 = $(`<div id="html_cde6fcc0a7c99dba51b84def0723bd94" style="width: 100.0%; height: 100.0%;">Bandung: 65</div>`)[0];
+                popup_35fecba45fdaaa1756fd157fe9e9f504.setContent(html_cde6fcc0a7c99dba51b84def0723bd94);
+            
+        
+
+        circle_marker_a5e20b48edcb2a7fe5384e17fcdcdb25.bindPopup(popup_35fecba45fdaaa1756fd157fe9e9f504)
+        ;
+
+        
+    
+    
+            var circle_marker_f53095faf5470ac348b7b180d7335aa6 = L.circleMarker(
+                [-7.2459717, 112.7378266],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_0063af3f9acf44ff715dff2b8787f183);
+        
+    
+        var popup_27d50c4b69ea35490f4c8d7630801130 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d349e7eeed751ea0b9ecc7dc35e5d49b = $(`<div id="html_d349e7eeed751ea0b9ecc7dc35e5d49b" style="width: 100.0%; height: 100.0%;">Surabaya: 75</div>`)[0];
+                popup_27d50c4b69ea35490f4c8d7630801130.setContent(html_d349e7eeed751ea0b9ecc7dc35e5d49b);
+            
+        
+
+        circle_marker_f53095faf5470ac348b7b180d7335aa6.bindPopup(popup_27d50c4b69ea35490f4c8d7630801130)
+        ;
+
+        
+    
+    
+            var circle_marker_97d093036121e13bf5b3f0e77779c0e5 = L.circleMarker(
+                [-7.8011998, 110.3646608],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_0063af3f9acf44ff715dff2b8787f183);
+        
+    
+        var popup_9eb4f1a3b024e643880d432dd5b21d72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da648ff3ec5e47fca4f68dc8d42d35b6 = $(`<div id="html_da648ff3ec5e47fca4f68dc8d42d35b6" style="width: 100.0%; height: 100.0%;">Yogyakarta: 60</div>`)[0];
+                popup_9eb4f1a3b024e643880d432dd5b21d72.setContent(html_da648ff3ec5e47fca4f68dc8d42d35b6);
+            
+        
+
+        circle_marker_97d093036121e13bf5b3f0e77779c0e5.bindPopup(popup_9eb4f1a3b024e643880d432dd5b21d72)
+        ;
+
+        
+    
+</script>
+</html>

@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "folium>=0.19.5",
+    "geopandas>=1.0.1",
+    "geopy>=2.4.1",
     "jupyterlab>=4.3.5",
+    "matplotlib>=3.10.1",
     "pandas>=2.2.3",
+    "plotly>=6.0.0",
+    "scipy>=1.15.2",
 ]
