@@ -1,0 +1,3 @@
+Seperti yang terlihat pada heatmap diatas, *corelation value* antara kolom **PM2.5** dengan *Musim* pada masing station menunjukkan korelasi yang sangat lemah. Hal ini ditunjukkan dengan *corelation value* yang berkisar antara $\pm(0-0.2)$. 
+
+Oleh karena itu, dapat disimpulkan bahwa tidak ada korelasi antara **PM2.5** dan *Musim* pada masing station selama periode (2013-2017)
