@@ -1,1 +1,1 @@
-https://air-quality-analysis-pradana.streamlit.app/
+https://pradana-air-quality-analysis.streamlit.app/

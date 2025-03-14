@@ -1,0 +1,3 @@
+1. Tidak ada korelasi antara **PM2.5** dan *Wind Direction (wd)* pada masing station selama periode (2013-2017)
+2. Tidak ada korelasi antara **PM2.5** dan *Musim* pada masing station selama periode (2013-2017).
+3. Analisis kualitas udara menunjukkan kondisi yang mengkhawatirkan dengan rata-rata tahunan semua stasiun berada pada level *Unhealthy*, meskipun pada momen tertentu kualitas udara dapat mencapai level *Good*. Rentang kualitas udara sangat bervariasi dari *Good* hingga *Hazardous*, dengan mayoritas stasiun menunjukkan median pada level *Unhealthy for Sensitive Groups* dan *Unhealthy*, menandakan masalah polusi udara yang persisten dan memerlukan perhatian serius.

@@ -59,3 +59,7 @@ with col2:
 
     else:
         load_plotly_html(plot_options[selected_plot]["plot"])
+    
+    st.markdown("### Conclusion")
+    conclusion = load_markdown_description("dashboard/asset/conclusion.md")
+    st.markdown(conclusion)    
