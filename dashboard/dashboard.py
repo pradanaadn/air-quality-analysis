@@ -11,6 +11,7 @@ st.set_page_config(
     }
 )
 
+@st.cache_data
 def load_markdown_description(md_file_path):
     """Load and return content from a markdown file"""
     try:
@@ -18,7 +19,7 @@ def load_markdown_description(md_file_path):
             return f.read()
     except FileNotFoundError:
         return "Description not available."
-
+@st.cache_data
 def load_plotly_html(html_file_path):
     with open(html_file_path, 'r') as f:
         html_content = f.read()
