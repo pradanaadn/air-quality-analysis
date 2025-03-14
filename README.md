@@ -34,6 +34,6 @@ pip install -r requirements.txt
 To run the Streamlit application:
 
 ```bash
-streamlit run main.py
+streamlit run dashboard/dashboard.py
 ```
 
